@@ -82,9 +82,9 @@ class Bank:
 if __name__ == "__main__":
     bank = Bank()
 
-    s_acc = SavingsAccount("S123", "Alice", 1000, 0.05)
-    c_acc = CurrentAccount("C456", "Bob", 500, 300)
-    f_acc = FixedDepositAccount("F789", "Charlie", 2000, lock_in_period=6)
+    s_acc = SavingsAccount("S123", "Nishaanth", 50000, 0.05)
+    c_acc = CurrentAccount("C456", "Parthib", 30000, 200)
+    f_acc = FixedDepositAccount("F789", "Leo", 5000, lock_in_period=6)
 
     bank.add_account(s_acc)
     bank.add_account(c_acc)
