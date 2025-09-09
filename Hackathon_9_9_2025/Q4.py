@@ -11,11 +11,11 @@ def preorder(root):
         preorder(root.right)
 
 
-root = Node(1)
-root.left = Node(2)
-root.right = Node(3)
-root.left.left = Node(4)
-root.left.right = Node(5)
+root = Node(12)
+root.left = Node(23)
+root.right = Node(31)
+root.left.left = Node(47)
+root.left.right = Node(53)
 
 
 print("\nPreorder:")
